@@ -28,18 +28,22 @@ nav ul li {
     transition: 0.5s ease;
 }
 
+main {
+    margin: 0 32px;
+}
+
 h1 {
     font-size: 48px;
     font-family: "Gothic A1", sans-serif;
     font-weight: 600;
-    margin: 52px 0 25px 32px;
+    margin: 52px 0 12px 0;
 }
 
 #profile{
     display: inline-block;
     overflow: hidden;
-    margin: 0 32px;
 }
+
 #profile img {
     width: 320px;
     height: 320px;
@@ -48,16 +52,20 @@ h1 {
 #profile img:hover {
     width: 320px;
     height: 320px;
-
     transform: scale(1.2);
     transition: transform 1s;
 }
 
-#detail {
+#detail_left {
+    margin-left: 0;
+}
+.detail {
     display: grid;
-    margin-left: 32px;
+    
     grid-template-columns: 1fr 1fr;
 }
+
+
 
 .info {
     font-size: 32px;
