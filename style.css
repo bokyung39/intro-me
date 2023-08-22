@@ -20,7 +20,6 @@ nav ul li {
 .menu {
     color: white;
     text-decoration: none;
-    font-size: 16px;
 }
 
 .menu:hover {
@@ -31,9 +30,9 @@ nav ul li {
 
 h1 {
     font-size: 48px;
-    font-family: 'Gothic A1', sans-serif;
+    font-family: "Gothic A1", sans-serif;
     font-weight: 600;
-    margin: 50px 0 25px 32px;
+    margin: 52px 0 25px 32px;
 }
 
 #profile{
@@ -49,6 +48,7 @@ h1 {
 #profile img:hover {
     width: 320px;
     height: 320px;
+
     transform: scale(1.2);
     transition: transform 1s;
 }
@@ -59,7 +59,7 @@ h1 {
     grid-template-columns: 1fr 1fr;
 }
 
-h3 {
+.info {
     font-size: 32px;
     font-family: 'Gothic A1', sans-serif;
     font-weight: 600;
