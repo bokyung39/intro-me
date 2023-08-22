@@ -17,9 +17,10 @@ nav ul li {
     margin: 15px;
 
 }
+
 .menu {
-    color: white;
     text-decoration: none;
+    color: white;
 }
 
 .menu:hover {
